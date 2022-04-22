@@ -33,6 +33,12 @@ From the top level pixie/ directory, run:
 `cd ~/pixie && ./scripts/create_cloud_secrets.sh`{{execute}}
 
 ### Install kustomize.
+use binary install 
+
+`cd ~/ && curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
+export PATH=$PATH:/root/`{{execute}}
+
+use source install( need go 1.16+)
 
 `GOBIN=$(pwd)/ GO111MODULE=on go get sigs.k8s.io/kustomize/kustomize/v4`{{execute}}
 
