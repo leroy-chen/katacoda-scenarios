@@ -6,12 +6,20 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "1. Run kubernetes cluster",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "2. Deploy Pixie Cloud",
         "text": "step2.md"
+      },
+      {
+        "title": "3. Install the Pixie CLI",
+        "text": "step3.md"
+      },
+      {
+        "title": "4. Deploy Pixie",
+        "text": "step4.md"
       }
     ],
     "intro": {
