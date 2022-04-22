@@ -1,4 +1,4 @@
-4. Deploy Pixie 🚀
+## 4. Deploy Pixie 🚀
 Pixie's CLI is the fastest and easiest way to deploy Pixie. You can also deploy Pixie using YAML or Helm.
 
 To deploy Pixie using the CLI:
@@ -16,5 +16,5 @@ px deploy --dev_cloud_namespace plc --pem_memory_limit=1Gi`{{execute}}
 
 Pixie will deploy pods to the pl, plc, px-operator, and olm(if deploying the OLM) namespaces.
 
-More Deploy Options
+### More Deploy Options
 For more deploy options that you can specify to configure Pixie, refer to our deploy options.
