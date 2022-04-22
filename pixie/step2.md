@@ -45,7 +45,8 @@ use source install( need go 1.16+)
 ### Deploy Pixie Cloud dependencies.
  wait for all pods within the plc namespace to become ready and available before proceeding to the next step. If there is an error, you may need to retry this step.
 
-`kustomize build k8s/cloud_deps/base/elastic/operator | kubectl apply -f -
+`cd ~/pixie 
+kustomize build k8s/cloud_deps/base/elastic/operator | kubectl apply -f -
 kustomize build k8s/cloud_deps/public | kubectl apply -f -`{{execute}}
 
 ### Deploy Pixie Cloud.
